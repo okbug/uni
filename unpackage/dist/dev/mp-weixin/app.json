@@ -1,0 +1,49 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/detail/detail",
+    "pages/list/list",
+    "pages/category/category",
+    "pages/query/query",
+    "pages/user/user",
+    "pages/festudy/festudy",
+    "pages/tools/tools",
+    "pages/music/music"
+  ],
+  "subPackages": [],
+  "window": {
+    "navigationBarTextStyle": "black",
+    "navigationBarTitleText": "uni-app",
+    "navigationBarBackgroundColor": "#F8F8F8",
+    "backgroundColor": "#F8F8F8"
+  },
+  "tabBar": {
+    "color": "#AAAAAA",
+    "selectedColor": "#262626",
+    "borderStyle": "black",
+    "backgroundColor": "#fff",
+    "list": [
+      {
+        "text": "首页",
+        "pagePath": "pages/index/index",
+        "iconPath": "/static/images/homes.png",
+        "selectedIconPath": "/static/images/homes_on.png"
+      },
+      {
+        "text": "栏目",
+        "pagePath": "pages/category/category",
+        "iconPath": "/static/images/categorys.png",
+        "selectedIconPath": "/static/images/categorys_on.png"
+      },
+      {
+        "pagePath": "pages/tools/tools",
+        "text": "工具",
+        "iconPath": "/static/images/user.png",
+        "selectedIconPath": "/static/images/user.png"
+      }
+    ]
+  },
+  "usingComponents": {
+    "m-table": "/components/p-table/table/table"
+  }
+}

@@ -1,0 +1,6 @@
+{
+  "navigationBarTitleText": "前端每日学习",
+  "usingComponents": {
+    "show-info": "/components/ShowInfo"
+  }
+}

@@ -1,0 +1,1 @@
+<view class="content"><block wx:for="{{items}}" wx:for-item="item" wx:for-index="index" wx:key="index"><view><view class="text-shadow"><text class="label text-center text-red">{{item.label}}</text></view><view class="questionTitle">{{''+item.title+''}}</view></view></block></view>

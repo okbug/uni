@@ -1,0 +1,83 @@
+
+.topinfo{
+	font-size: large;
+}
+.content {
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: flex;
+	-webkit-box-orient: vertical;
+	-webkit-box-direction: normal;
+	-webkit-flex-direction: column;
+	        flex-direction: column;
+	-webkit-box-align: center;
+	-webkit-align-items: center;
+	        align-items: center;
+	-webkit-box-pack: center;
+	-webkit-justify-content: center;
+	        justify-content: center;
+}
+.isShow {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translateX(-50%);
+            transform: translateX(-50%);
+    z-index: 10;
+    width: 60px;
+    height: 60px;
+}
+.loading {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+            transform: translate(-50%, -50%);
+    height: 40px;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+            align-items: center;
+}
+.obj{
+  width: 6px;
+  height: 40px;
+  background: -webkit-gradient(linear, left top, right top, from(#076585), to(#fff));
+  background: -webkit-linear-gradient(left, #076585, #fff);
+  background: linear-gradient(to right, #076585, #fff);
+  margin: 0 3px;
+  border-radius: 10px;
+  -webkit-animation: loading 0.8s infinite;
+          animation: loading 0.8s infinite;
+}
+.obj:nth-child(2){
+  -webkit-animation-delay: 0.1s;
+          animation-delay: 0.1s;
+}
+.obj:nth-child(3){
+  -webkit-animation-delay: 0.2s;
+          animation-delay: 0.2s;
+}
+.obj:nth-child(4){
+  -webkit-animation-delay: 0.3s;
+          animation-delay: 0.3s;
+}
+.obj:nth-child(5){
+  -webkit-animation-delay: 0.4s;
+          animation-delay: 0.4s;
+}
+.obj:nth-child(6){
+  -webkit-animation-delay: 0.5s;
+          animation-delay: 0.5s;
+}
+.obj:nth-child(7){
+  -webkit-animation-delay: 0.6s;
+          animation-delay: 0.6s;
+}
+.obj:nth-child(8){
+  -webkit-animation-delay: 0.7s;
+          animation-delay: 0.7s;
+}
+

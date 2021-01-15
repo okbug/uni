@@ -1,0 +1,6 @@
+{
+  "navigationBarTitleText": "工具",
+  "usingComponents": {
+    "show-info": "/components/ShowInfo"
+  }
+}

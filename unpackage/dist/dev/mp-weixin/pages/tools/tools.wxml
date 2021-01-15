@@ -1,0 +1,1 @@
+<view class="content"><view class="header"><button type="primary" data-event-opts="{{[['tap',[['jump',[1]]]]]}}" bindtap="__e">打开疫情查询页面</button><button type="primary" data-event-opts="{{[['tap',[['jump',[2]]]]]}}" bindtap="__e">打开前端学习</button><button type="primary" data-event-opts="{{[['tap',[['jump',[3]]]]]}}" bindtap="__e">打开音乐排行榜</button></view></view>

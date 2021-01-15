@@ -1,0 +1,10 @@
+
+.label{
+	font-size: 30rpx;
+	margin: auto;
+}
+.questionTitle{
+	font-size: 35rpx;
+	margin-bottom: 50rpx;
+}
+
